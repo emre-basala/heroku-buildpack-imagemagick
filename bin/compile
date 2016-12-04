@@ -12,10 +12,12 @@ VENDOR_DIR="$BUILD_DIR/vendor"
 mkdir -p $VENDOR_DIR
 INSTALL_DIR="$VENDOR_DIR/imagemagick"
 mkdir -p $INSTALL_DIR
-IMAGE_MAGICK_VERSION="${IMAGE_MAGICK_VERSION:-6.9.5-10}"
+IMAGE_MAGICK_VERSION="${IMAGE_MAGICK_VERSION:-7.0.3-8}"
 CACHE_FILE="$CACHE_DIR/imagemagick-$IMAGE_MAGICK_VERSION.tar.gz"
 
 if [ ! -f $CACHE_FILE ]; then
+
+  # http://www.imagemagick.org/download/releases/ImageMagick-7.0.3-8.tar.xz
   # install imagemagick
   # yum install librsvg2 librsvg2-devel ImageMagick-devel
   IMAGE_MAGICK_FILE="ImageMagick-$IMAGE_MAGICK_VERSION.tar.xz"
