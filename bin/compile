@@ -71,9 +71,7 @@ cat > $INSTALL_DIR/policy.xml <<EOF
 EOF
 
 echo "-----> Writing config file"
-mkdir -p $INSTALL_DIR/config
-
-cat > $INSTALL_DIR/config/magic.xml <<EOF
+cat > $INSTALL_DIR/magic.xml <<EOF
 <magicmap>
 </magicmap>
 EOF
