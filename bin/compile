@@ -12,7 +12,7 @@ VENDOR_DIR="$BUILD_DIR/vendor"
 mkdir -p $VENDOR_DIR
 INSTALL_DIR="$VENDOR_DIR/imagemagick"
 mkdir -p $INSTALL_DIR
-IMAGE_MAGICK_VERSION="${IMAGE_MAGICK_VERSION:-6.6.9-10}"
+IMAGE_MAGICK_VERSION="${IMAGE_MAGICK_VERSION:-7.0.8-22}"
 # http://www.imagemagick.org/download/releases/ImageMagick-7.0.5-6.tar.xz
 CACHE_FILE="$CACHE_DIR/imagemagick-$IMAGE_MAGICK_VERSION.tar.gz"
 
